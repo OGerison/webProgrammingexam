@@ -1,0 +1,102 @@
+.header{
+    background-color:grey;
+    height: 90px;
+    color:black;
+  }
+.header-banner{ 
+  float:right;
+  color:#ff0000;
+  background-color:grey;
+}
+
+.logo{
+    float:left;
+}
+
+body {
+  font-family: "Avenir Next";
+  background-image: url(black.jpg);
+  background-position: fixed;
+}
+h1{
+  float:right;
+  color:white;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+  }
+  .info{
+  float:left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:grey;
+  }
+  body {
+    font-family: "Avenir Next";
+    background-size: cover;
+    background-color: #c0c0c0;
+  }
+  footer{
+    background-color:grey;
+    height: 90px;
+    color:black;
+    bottom: 0;
+    position:fixed;
+    width:100%;
+  }
+  .menu {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: black;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+  .menu a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  .menu a:hover {
+    color: grey;
+  }
+  
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+    background-image: url(black.jpg);
+    background-size: cover;
+    background-color: black;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .menu {padding-top: 15px;}
+    .menu a {font-size: 18px;}
+  }
+  img{
+    border-radius: 50%;
+  } 
+ form{
+   color:white;
+ }
